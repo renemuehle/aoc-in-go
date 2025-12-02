@@ -27,7 +27,11 @@ func main() {
 // 4. with: true (part2), and user input
 // the return value of each run is printed to stdout
 func run(part2 bool, input string) any {
-	// when you're ready to do part 2, remove this "not implemented" block
+	// Part 1
+	if !part2 {
+	    return "not implemented"
+	}
+	// Part 2
 	if part2 {
 		return "not implemented"
 	}
